@@ -1,0 +1,43 @@
+.NavigationItems {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  z-index: 90;
+  list-style: none;
+  justify-content: center;
+  padding: 0.3rem;
+}
+
+.NavigationItems a {
+  text-decoration: none;
+  color: black;
+  padding: 0 0.5rem;
+  margin: auto;
+  font-weight: bold;
+  box-sizing: border-box;
+  display: inline;
+}
+
+@media (max-width: 500px) {
+  .NavigationItems {
+    display: block;
+    flex-direction: column;
+    height: 100%;
+    z-index: 90;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .NavigationItems a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 0.5rem;
+    border-bottom: 1px solid transparent;
+    border-radius: 2px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1rem;
+    box-sizing: border-box;
+    display: block;
+  }
+}

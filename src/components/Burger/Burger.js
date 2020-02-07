@@ -13,7 +13,7 @@ const Burger = (props) => {
     .flat();
 
   if (transformedIngredients.length === 0)
-    transformedIngredients = <div>Please start adding ingredients</div>;
+    transformedIngredients = <div> Start Adding Your Ingredients</div>;
   //   console.log(transformedIngredients);
   //   const arr = transformedIngredients.flat(); Flattening nested array!!!
   //   console.log(arr);
